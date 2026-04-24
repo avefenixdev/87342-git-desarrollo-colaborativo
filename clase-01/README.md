@@ -30,4 +30,10 @@ git config --global init.defaultBranch main
 ```sh
 git add <nombre-archivo>
 git add README.md
-``` 
+```
+
+## Como ver el estado del archivo y en que área está
+
+```sh
+git status
+```
