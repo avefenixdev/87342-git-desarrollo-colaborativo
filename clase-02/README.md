@@ -32,3 +32,24 @@ git branch -r
 ```sh
 git branch -a
 ```
+
+## Otra manera de hacer un commit
+Para agregar más información sobre lo que hizo dentro de ese commit (A partir de la tercera línea)
+
+1. Muevo los archivos al staging area
+
+```sh
+git add <nombre/archivo>
+``` 
+
+2. Hago un commit
+
+```sh
+git commit # Eso abre el nano/vim/vsc para que escribamos el mensaje
+``` 
+
+3. Una vez escrito el mensaje para confirmar
+
+Ctrl + O + Enter (guardar) | Ctrl + X
+
+
