@@ -76,4 +76,9 @@ O sea, que si quiero traerme lo que está en feature/ramas a la rama main. Tengo
 
 ```sh
 git switch main
-```  
+```
+
+## Herramientas visuales para trabajar con GIT
+
+* Github Desktop <https://desktop.github.com/download/>
+* GitKraken <https://www.gitkraken.com/>
