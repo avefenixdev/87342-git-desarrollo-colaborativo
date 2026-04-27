@@ -76,4 +76,9 @@ O sea, que si quiero traerme lo que está en feature/ramas a la rama main. Tengo
 
 ```sh
 git switch main
-```  
+git merge feature/ramas
+```
+
+* Fast/forward: El mejor de los mundos. La fusión fue hecha automaticamente por GIT. Sin Conflicto.
+* Tercera Vía: Bueno mundo. La fusión la hace también git automaticamente. Sin Conflicto
+* Conflicto: Sucede cuando en las diferentes ramas hay cambios en las misma líneas de los mismos archivos.
