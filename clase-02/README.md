@@ -52,4 +52,12 @@ git commit # Eso abre el nano/vim/vsc para que escribamos el mensaje
 
 Ctrl + O + Enter (guardar) | Ctrl + X
 
+## Creando una rama (Creando una bifurcación)
 
+```sh
+# primera alterniva
+git branch feature/ramas # Crea una rama
+git switch feature/ramas # Me muevo a la rama que indico
+# segunda alternativa
+git switch -c feature/ramas # Crear una rama y moverse a esa rama
+```  
