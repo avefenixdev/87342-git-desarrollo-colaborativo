@@ -19,3 +19,38 @@ git clone https://github.com/avefenixdev/portfolio.git ./ # ./ indica directorio
 ```sh
 git commit --amend -m "mensaje descriptivo"
 ```
+
+# Trabajando colaborativamente
+Una persona va a tener que crear el repositorio y agregar a todos los colaboradores en ese repositorio
+
+## Traer la metadata (actualizar la carpeta .git)
+
+```sh
+git fetch
+``` 
+
+## Traer metadata y cambios
+
+```sh
+git pull
+git pull origin maxi
+```
+
+## Ver ramas locales y remotas
+
+```sh
+git branch -av
+``` 
+
+# Alias en Git
+
+```sh
+git config --global alias.l "log --oneline"
+git config --global alias.s "status --short"
+git config --global alias.c "commit -m"
+```
+
+
+
+
+
