@@ -14,3 +14,8 @@ Si quiero que la carpeta .git exista en mi local, necesito clonar el repositorio
 git clone https://github.com/avefenixdev/portfolio.git ./ # ./ indica directorio actual
 ```
 
+# Arreglar un mensaje de commit o agregar en un commit un archivo que me olvide
+
+```sh
+git commit --amend -m "mensaje descriptivo"
+```
